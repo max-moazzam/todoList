@@ -30,13 +30,13 @@ var todoList = {
 		}
 
 		if (todosCount === completedTodosCount) {
-			for (var i = 0; i < this.todos.length; i++) {
-				this.todos[i].completed = false;
+			for (var ii = 0; ii < this.todos.length; ii++) {
+				this.todos[ii].completed = false;
 			}
 		}
 		else {
-			for (var i = 0; i < this.todos.length; i++) {
-				this.todos[i].completed = true;
+			for (var iii = 0; iii < this.todos.length; iii++) {
+				this.todos[iii].completed = true;
 			}
 		}
 	}
